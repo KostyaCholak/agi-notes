@@ -13,19 +13,19 @@ AGI is supposed be useful for people -> it's supposed be able to act -> motory i
 
 ### Aknowledgement of the subjectivity
 **What is it:**  
-External sources of knowledge are always subjective (be it a book or a person).
-They communicate their view on the real world, not how it really is.  
-Second source of subjectivity is medium of communication.  
+External sources of knowledge are always subjective (be it a book or a person).  
+They communicate their view on the real world, not how it really is.   
+Second source of subjectivity is medium of communication.   
 
 **Why is it required:**  
-Outside sources of knowledge can be conflicting or false, so if an agent fully trusts them, it could lead tto inability to learn.
-Because if someone has given an agent false information multiple times, then the agent shouldn't believe this source by default.
-Otherwise this source could "overwrite" correct and tested knowledge. 
-This is also required in order to use scientific method.
+Outside sources of knowledge can be conflicting or false, so if an agent fully trusts them, it could lead tto inability to learn.  
+Because if someone has given an agent false information multiple times, then the agent shouldn't believe this source by default.  
+Otherwise this source could "overwrite" correct and tested knowledge.   
+This is also required in order to use scientific method.  
 
 ### Aknowledgement of inaccuracy of communication
 **What is it:**  
-When two agents are unaligned in some underlying knowledge or use/understand words/symbols differently, they will not be able to properly understand each other and often even understand that the misunderstanding took place.
+When two agents are unaligned in some underlying knowledge or use/understand words/symbols differently, they will not be able to properly understand each other and often even understand that the misunderstanding took place.  
 ```mermaid
 graph LR;
     EXT_ABS[Subjective External Idea] -->|imperfect| WORDS[Word representation];
@@ -43,7 +43,8 @@ graph LR;
 Learning takes ideas an agent got from reasoning and modifies the "knowledge base" of the agent.
 
 **Why is it required:**  
-Learning is required because it's unlikely to know everything. And considering that knowledge is subjective, I would say it's impossible to know everything.
+Learning is required because it's unlikely to know everything.  
+And considering that knowledge is subjective, I would say it's impossible to know everything.  
 
 Required learning scenarios (the list is not exhaustive and probably overlapping):
 - Agent's action had an effect -> associate the action with the effect
