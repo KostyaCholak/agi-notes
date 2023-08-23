@@ -46,11 +46,6 @@ Learning takes ideas an agent got from reasoning and modifies the "knowledge bas
 Learning is required because it's unlikely to know everything.  
 And considering that knowledge is subjective, I would say it's impossible to know everything.  
 
-Required learning scenarios (the list is not exhaustive and probably overlapping):
-- Agent's action had an effect -> associate the action with the effect
-- Expected effect wasn't observed -> invalide the association between the cause and the expected effect, look for more complex theory of the relation
-- Another agent gives new information about a hierarchical relation between ideas (a don is an animal) -> learn the abstract relation
-
 ### Abstraction Processing
 **What it is:**  
 Processing of raw inputs from sensory interfaces into abstract ideas
