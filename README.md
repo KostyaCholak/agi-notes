@@ -1,6 +1,6 @@
 # AGI Notes
 
-## Required Components
+## Required Components/Functionality
 
 ### Sensory interfaces
 **Why are they required:**  
@@ -58,3 +58,6 @@ The agent can only learn statistics from raw input (requiring tons of raw input)
 **Why is it required:**  
 Reasoning is an essential step of learning, so it's required.
 
+## Short-term Entity Memory (Context)
+**What it is:**  
+Mechanism that can store and retrieve recently manipulated (physically or mentally) entities.
