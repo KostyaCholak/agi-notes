@@ -5,15 +5,15 @@ Here we will not conver how to transform text (or other formats of raw data) to 
 
 ## Entity
 We will use object-oriented approach to represent ideas:  
-```c++
-ClassName {
+```python
+ConceptName {
     field1: ...,
     field2: ...,
     ...
 }
 ```
 Here is a representation of a string literal "hello":
-```c++
+```python
 String {
     value: "hello",
 }
@@ -24,7 +24,7 @@ Name for the idea `String` was chosen arbitrary, it can be any random name (like
 Here is a representation of an idea of the command:  
 `print "hello"`
 
-```c++
+```python
 ImperativeCommand {
     action: ActionOnEntity {
         action: Concept {
@@ -40,7 +40,7 @@ ImperativeCommand {
 Let's make it a bit more complex:  
 `print "hello" to the console`
 
-```c++
+```python
 ImperativeCommand {
     action: ActionWithDescription {
         action: ActionOnEntity {
@@ -61,3 +61,4 @@ ImperativeCommand {
     }
 }
 ```
+
