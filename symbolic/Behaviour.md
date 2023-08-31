@@ -1,6 +1,6 @@
 # Behaviour
 
-WIP
+Work In Progress
 
 This document describes how the agent behaves.
 
